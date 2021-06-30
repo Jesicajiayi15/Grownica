@@ -1,0 +1,97 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #00917C;
+    width: auto;
+    height: auto;
+}
+.outter-container{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height:auto;
+}
+.container-signin-1{
+    width: auto;
+    width: 40%;
+    padding: 50px 0px 0px 100px;
+    margin-right: 30px;
+}
+.container-signin-1 h1{
+    color: #FDE8CD;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+.container-signin-2 img{
+    width: 580px;
+}
+input[type=email], input[type=password], input[type=text], input[type="tel"]{
+    border:none;
+    padding: 10px 305px 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #DFE0DF;
+    color: #433520;
+
+}
+input[type=password] .pass{
+    margin-bottom: 190px;
+}
+input[type=email], input[type=text], input[type="tel"], input[type=password] {
+    margin-bottom: 20px;
+}
+
+.container-signin-1 form a{
+    color: #00917C;
+}
+input[type=submit]{
+    margin-top: 40px;
+    padding: 15px 24px;
+    border: none;
+    background-color: #FDE8CD;
+    color: #433520;
+    font-weight: bolder;
+    font-size: 19px;
+    float: right;
+}
+input[type=submit]:hover{
+    background-color: #433520;
+    color: #FDE8CD;
+    transition: 0.4s ease-in-out;
+}
+.cont{
+    margin-top: 170px;
+    width: 100%;
+    
+}
+.cont h5{
+    width:160px;
+    text-align: center;
+    color: #433520;
+    
+}
+label{
+    font-size: 14px;
+}
+.cont .signins{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 28px;
+    width:100%;
+    text-align: center;
+}
+.cont .signins a{
+    font-weight: bolder;
+    color: #FDE8CD;
+}
